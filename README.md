@@ -1,40 +1,75 @@
-🔍 Research Check – AI Research Paper Analyzer
+# 🔍 Research Check -- AI Research Paper Analyzer
 
-Research Check is a web-based AI application that analyzes research papers (PDFs) and answers user queries using Retrieval-Augmented Generation (RAG) with the Google Gemini API.
+Research Check is a web-based AI application that analyzes research
+papers (PDFs) and answers user queries using Retrieval-Augmented
+Generation (RAG) with the Google Gemini API.
 
-🚀 Features
+------------------------------------------------------------------------
 
-Upload and analyze research paper PDFs
+## 🚀 Features
 
-Semantic search using vector embeddings
+-   Upload and analyze research paper PDFs\
+-   Semantic search using vector embeddings\
+-   AI-powered question answering\
+-   Fast retrieval using FAISS\
+-   Simple and user-friendly interface
 
-AI-powered question answering
+------------------------------------------------------------------------
 
-Fast retrieval with FAISS
+## 🛠 Tech Stack
 
-Simple and user-friendly interface
+### Frontend
 
-🛠 Tech Stack
+-   HTML\
+-   CSS\
+-   JavaScript
 
-Frontend: HTML, CSS, JavaScript
+### Backend
 
-Backend: Flask (Python)
+-   Flask (Python)
 
-AI/NLP: Google Gemini API, Sentence Transformers
+### AI / NLP
 
-Tools: FAISS, PyPDF2, NumPy
+-   Google Gemini API\
+-   Sentence Transformers
 
-⚙️ How It Works
+### Tools
 
-Upload PDF
+-   FAISS\
+-   PyPDF2\
+-   NumPy
 
-Extract and embed text
+------------------------------------------------------------------------
 
-Retrieve relevant content using FAISS
+## ⚙️ How It Works
 
-Generate answers using Gemini (RAG)
+1.  Upload PDF\
+2.  Extract text from the document\
+3.  Convert text into embeddings\
+4.  Store and retrieve relevant content using FAISS\
+5.  Generate answers using Gemini API (RAG)
 
-▶️ Run Locally
+------------------------------------------------------------------------
+
+## ▶️ Run Locally
+
+``` bash
 pip install -r requirements.txt
 python app.py
+```
 
+------------------------------------------------------------------------
+
+## 📌 Future Improvements
+
+-   📊 Multi-document support\
+-   🧠 Better summarization features\
+-   🌐 Deploy as a web service\
+-   📁 Support for more file formats
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Author
+
+**Immidisetti Lakshmi Vrusha Sai Chatushva**\
+- GitHub: https://github.com/chatushva
